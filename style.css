@@ -10,11 +10,13 @@ h1 {
 h2 {
   font-size: 2rem;
   font-weight: bold;
-  padding: 2rem;
+  padding: 2rem 0 2rem 0;
+  color: firebrick;
 }
 h3 {
   font-size: 1.5rem;
   font-weight: bold;
+  color: firebrick;
 }
 
 /* NAVIGATION */
@@ -27,12 +29,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 4rem;
-
   position: fixed;
   top: 0;
   z-index: 5;
   width: 100%;
-  background-color: white;
+  background-color: #F5F3F5;
 }
 .company {
   display: flex;
@@ -58,7 +59,7 @@ nav {
 
 /* BANNER*/
 .banner {
-  background-color: #C0C0C0;
+  background-color: #576CA8;
 }
 .banner-info {
   display: flex;
@@ -83,7 +84,7 @@ p.credit {
 }
 .start-button {
   color: white;
-  background-color: darkblue;
+  background-color: #274690;
   padding: 1rem 4rem;;
   position: relative;
   top: 2rem;
@@ -113,6 +114,7 @@ p.credit {
   width: 40%;
   padding-top:1rem;
   padding-bottom: 2rem;
+  background-color: #E5F3F5;
 }
 .info-item {
   display: flex;
@@ -133,13 +135,13 @@ p.credit {
 }
 .readmore {
   font-weight: bold;
-  color: firebrick;
+  color: #274690;
   margin-top: .5rem;
 }
 
 /* START LEARNING */
 .learning {
-  background-color: #C0C0C0;
+  background-color: #F5F3F5;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -149,6 +151,8 @@ p.credit {
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 2rem;
+  padding-top: 1rem;
+  background-color: #1B264F;
 }
 .course {
   width: 25%;
@@ -175,18 +179,23 @@ p.credit {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: #F5F3F5;
+}
+.thesis-section h2 {
+  padding-bottom: 2rem;
 }
 .thesis {
   display: flex;
   flex-direction: row;
-  padding-bottom: 2rem;
 }
 .thesis-video {
   display: flex;
   flex-direction: column;
+  background-color: #576CA8;
+  padding-bottom: 2rem;
 }
 .thesis-video video {
-  margin: 0 1rem 1.5rem 1.5rem;
+  margin: 1.5rem;
   width: 90%;
 }
 .video-text {
@@ -224,8 +233,9 @@ footer {
   justify-content: space-between;
   padding: 1rem;
   font-size: .75rem;
-  margin: 1rem;
+  margin: 0;
   border-top: 1px solid lightgray;
+  background-color: #F5F3F5;
 }
 .terms span {
   padding-right: 1rem;
