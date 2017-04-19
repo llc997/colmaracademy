@@ -105,13 +105,16 @@ nav {
   color: white;
   margin-bottom: 1rem;
 }
+.banner-text h3 {
+  color: white;
+}
 p.credit {
   font-size: .75rem;
   margin-top: 2rem;
 }
 .start-button {
   color: white;
-  background-color: #274690;
+  background-color: firebrick;
   padding: 1rem 4rem;;
   position: relative;
   top: 2rem;
@@ -322,6 +325,7 @@ p.credit {
   width: 90%;
 }
 .video-text h3 {
+  color: white;
   padding-bottom: 1rem;
 }
 .video-text p {
